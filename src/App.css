@@ -1,0 +1,164 @@
+main {
+  background-color: mediumspringgreen;
+  padding: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(229, 124, 171);
+  color: black;
+  height: 43px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul{
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  padding: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  padding: 4px;
+  margin-top: 25px;
+  cursor: pointer;
+  background-color: rgb(193, 88, 113);
+  border: 1px solid rgb(193, 88, 113);
+  border-radius: 9px;
+  color: whitesmoke;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: cursive;
+}
+
+input[type='text'] {
+  width: 30vw;
+  height: 24px;
+  padding: 5px;
+  font-family: cursive;
+  border-radius: 7px;
+  border: 1px solid rgb(202, 162, 225);
+  background-color: rgb(202, 162, 225);
+}
+
+textarea {
+  width: 30vw;
+  height: 122px;
+  padding: 5px;
+  border-radius: 7px;
+  font-family: cursive;
+  border: 1px solid rgb(202, 162, 225);
+  background-color: rgb(202, 162, 225);
+}
+
+.card {
+  width: 233px;
+  height: 233px;
+  background-color: rgb(89, 230, 218);
+  color: black;
+  font-weight: bold;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 13px;
+  position: relative;
+  /* font-family: cursive; */
+}
+
+.card .title {
+  text-align: center;
+  font-size: 22px;
+  /* font-family: cursive;  */
+  padding: 8px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 85vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+
+.noteSection {
+  /* margin-top: 23px; */
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(242, 242, 135);
+}
+
+.del {
+  position: absolute;
+  /* margin: 3px; */
+  right: 9px;
+  cursor: pointer;
+}
+
+.ynTxt {
+  margin: 20px;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+footer {
+  text-align: center;
+  padding: 60px;
+  background-color: rgb(229, 124, 171);
+}
+
+.copySec {
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align-last: left;
+  color: black;
+}
+
+.devBy {
+  font-size: 14px;
+  text-align-last: center;
+  color: black;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.contacts {
+  margin: 10px;
+  /* padding: 10px; */
+  font-size: 14px;
+  text-align: right;
+  color: black;
+  list-style-type: none;
+  line-height: 1.8;
+  padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
